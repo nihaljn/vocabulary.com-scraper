@@ -23,3 +23,13 @@ Sample usage:
 ```shell
 python3 vocabulary.py --word pontificate
 ```
+
+`add_word.py` script can be used to update an existing dictionary of learnt words.
+```shell
+python3 add_word.py --word <word> --name <output_file_name>
+```
+Sample usage:
+```shell
+python3 add_word.py --word annals
+```
+Note: `name` argument is optional, defaults to `dictionary.csv`.
